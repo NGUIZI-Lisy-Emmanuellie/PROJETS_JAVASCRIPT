@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //Écrivez une fonction qui prend en paramètre un tableau de nombres et retourne le nombre le plus élevé.
+
+        function maximum(tableau){
+           let max=0;
+           for(let i=0 ; i<tableau.length ;i++){
+                if(tableau[i]>max){
+                max=tableau[i];
+                }
+            }
+            return max;
+        }
+
+
+         let numeros = [3,4,22,9,10];
+         console.log(maximum(numeros));
+
+    </script>
+</body>
+</html>

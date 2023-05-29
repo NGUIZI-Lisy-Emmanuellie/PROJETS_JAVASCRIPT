@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //Écrivez une fonction qui prend en paramètre un tableau de nombres
+        // et retourne la somme de tous les éléments du tableau.
+
+
+        function calculerSomme(tableau) {
+         let somme = 0;
+         for (let i = 0; i < tableau.length; i++) {
+            //length indique le nombre d'elements du tableau
+         somme += tableau[i];
+         }
+         return somme;
+        }
+
+
+
+        let numeros = [2, 4, 6, 8];
+        let resultat = calculerSomme(numeros);
+        console.log(resultat); 
+
+
+    </script>
+</body>
+</html>
